@@ -1,0 +1,45 @@
+                                   CARD-IMG PLACEMENT
+
+
+
+
+
+/* 
+body > img:nth-child(4){
+
+    transform:translate(205px,-87px);
+}
+
+
+body > img:nth-child(5){
+
+    transform:translate(373px,-87px);
+
+}
+
+body > img:nth-child(6){
+
+    transform:translate(540px,-87px);
+
+}
+
+body > img:nth-child(7){
+
+    transform:translate(710px,-87px);
+}
+
+body > img:nth-child(8){
+
+    transform:translate(870px,-87px);
+}
+
+body > img:nth-child(9){
+
+    transform:translate(1037px,-87px);
+}
+
+
+body > img:nth-child(10){
+
+    transform:translate(1200px,-87px);
+} */

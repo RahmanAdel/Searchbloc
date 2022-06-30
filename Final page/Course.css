@@ -1,0 +1,314 @@
+.body{
+  background-color: #F0F8FF;
+}
+.btn-group{
+    
+    padding-left: 12px; 
+       
+      
+  }
+    .dropdown-item li a{
+      
+      
+     padding: 20px;
+  }
+  
+  #btnGroupDrop1 {
+      background-color: black;
+  }
+  
+   .d-flex > button{
+  
+      border-radius: 30px;
+       color: black;
+       font-weight: 600;
+       padding: 0.4rem 1.4rem;
+       
+       
+       
+  }
+  .d-flex > button:hover{
+      background-color: black;
+      color: white;
+      
+  }
+  
+  .navbar{
+      
+      padding: 1rem 8rem;
+  }
+  .navbar .navbar-brand{
+      
+      font-size: 1.4rem;
+      font-weight: 700;
+  }
+  
+  
+  #navbarSupportedContent > ul > li:nth-child(n) > a {
+      
+      font-size: 1.1rem;
+      color: black;
+      font-weight: 500;
+      padding: 0 2rem;
+  }
+  
+  
+  #navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+      color: #00688d;
+  }
+  
+  #navbarSupportedContent > form{
+      padding-right: 20px;
+  }
+  
+  
+  /***********************Register****************************/
+body > header > nav > div.dropdown > div{
+
+    width: 235px;
+    
+}
+
+#form2Example3 > label{
+
+    padding-left: 30px;
+    
+}
+
+body > header > nav > div.container-fluid{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/***********************Register-End****************************/
+
+
+  
+  
+  /******************* Mega Menu ***********************/
+  
+  .mega-menu{
+      position: absolute;
+      left: 0px;
+      width: 70vw;
+      bottom: 150px;
+      opacity: 0;
+      visibility: hidden; 
+      transition: all 0.3s ease-out;
+      display: inline-block;
+  
+  }
+  
+  ul .mega-links{
+      list-style: none;
+  }
+  
+  .mega-menu .content{
+      background: black;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      width: 100;
+      justify-content: space-between;
+      color: white;
+  
+  }
+  
+  .content .col{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      line-height: 3rem;
+  }
+  
+  .content .col h2{
+      color: white;
+      font-size: 1.2rem;
+      line-height: 3rem;
+      font-weight: bold;
+  }
+  
+  .content .col .p{
+      line-height: 1.2rem;
+  }
+  
+  .content .col .mega-links{
+      border-left: 1px solid white;
+  }
+  
+  .col .mega-links li, .col .mega-links li a{
+      padding: 0 33px;
+  }
+  
+  .navbar-nav li:hover .mega-menu{
+      top: 50px;
+      opacity: 1;
+      visibility: visible; 
+      margin-top: 34px;
+      
+  }
+
+
+  /******************* Mega Menu -End***********************/
+
+
+  /**********Background-1********/
+ .background-1 h2{
+
+    background-color: #012c32;
+    height: 300px;
+    width: 100%;
+    
+  
+    
+    
+    
+}
+.txt-1 h2{
+    color: white;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 540;
+    padding-left: 15rem;
+    line-height: 4.75rem;
+    padding-top: 4rem;
+   
+       
+
+}
+
+/**********Background-1********/
+
+
+/******************************************Cards********************************/
+
+.card{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+.cards{
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h2.header{
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.services{
+  display: flex;
+  /* align-items: center; */
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: all .3s ease;
+}
+.content .fab{
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content > *{
+  flex: 1 1 100%;
+}
+.content{
+  color: white;
+}
+.content:hover a{
+  border-color: white;
+  background: white;
+}
+.content-1{
+  border-color: #007a99;
+  background: #007a99;
+}
+.content-1:hover a{
+  color: #1DA1F2;
+}
+.content-2{
+  border-color: #5F9EA0;
+  background: #5F9EA0;
+}
+.content-2:hover a{
+  color: #1DA1F2;
+}
+.content-3{
+  border-color: #5D8AA8;
+  background: #5D8AA8;
+}
+.content-3:hover a{
+  color: #1DA1F2;
+}
+
+
+ .content-4{
+  border-color: #002244;
+  background: #002244;
+}
+.content-4:hover a{
+  color: #1DA1F2;
+} 
+
+.content h2{
+  font-size: 30px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.content p{
+  font-size: 17px;
+  font-family: 'Poppins',sans-serif;
+}
+.content a{
+  margin: 22px 0;
+  background: #B9D9EB;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* border: 1px solid black; */
+  padding: 15px 0;
+  border-radius: 25px;
+  transition: .3s ease;
+  
+}
+/* .content a:hover{
+  border-radius: 4px;
+} */
+@media (max-width: 900px) {
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* body > div > div > div > div.content.content-1{
+    width: 306.67px;
+    margin-left: 300px;
+    height: 343px;
+    
+}  */
+body > div > div > div{
+    width: 1500px;
+    margin-left: 11rem;
+    max-height: 500px;
+    
+}
